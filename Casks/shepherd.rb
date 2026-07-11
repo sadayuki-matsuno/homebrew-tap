@@ -2,7 +2,8 @@ cask "shepherd" do
   version "0.0.1"
   sha256 "88d65bbf90e062717daeba30fdbc4d76e13d03fbb479274e6f60a947dc9759d9"
 
-  url "https://github.com/sadayuki-matsuno/shepherd/releases/download/v#{version}/Shepherd-#{version}.zip"
+  url "https://github.com/sadayuki-matsuno/shepherd/releases/download/v#{version}/Shepherd-#{version}.zip",
+      verified: "github.com/sadayuki-matsuno/shepherd/"
   name "Shepherd"
   desc "Floating, always-on-top HUD for Claude Code sessions"
   homepage "https://sadayuki-matsuno.github.io/shepherd/"
