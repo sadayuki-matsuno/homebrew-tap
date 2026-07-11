@@ -8,6 +8,8 @@ cask "shepherd" do
   desc "Floating, always-on-top HUD for Claude Code sessions"
   homepage "https://sadayuki-matsuno.github.io/shepherd/"
 
+  depends_on :macos
+
   app "Shepherd.app"
 
   caveats <<~EOS
