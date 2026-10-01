@@ -1,6 +1,6 @@
 cask "shepherd" do
-  version "0.0.8"
-  sha256 "ce52fd4dea2fad7a8944dc77e68a9d22b61178023776bf9753e6134b419823a9"
+  version "0.0.9"
+  sha256 "31885a0eaf9e14dc847dbdd6602e34b8bafc9cde3b6c37276d95cbfe77827bc1"
 
   url "https://github.com/sadayuki-matsuno/shepherd/releases/download/v#{version}/Shepherd-#{version}.zip",
       verified: "github.com/sadayuki-matsuno/shepherd/"
